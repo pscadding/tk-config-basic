@@ -39,6 +39,7 @@ frameworks:
       name: tk-framework-widget
   tk-framework-desktopserver_v1.x.x:
     location:
-      version: v1.1.15
-      type: app_store
-      name: tk-framework-desktopserver
+      type: git_branch
+      version: 287ab3c4e74890ba63fba5f6233b75cd8e2b9852
+      path: https://github.com/shotgunsoftware/tk-framework-desktopserver.git
+      branch: 41325_shared_secret
