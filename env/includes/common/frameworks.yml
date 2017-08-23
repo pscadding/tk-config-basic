@@ -40,6 +40,6 @@ frameworks:
   tk-framework-desktopserver_v1.x.x:
     location:
       type: git_branch
-      version: 2f2e843011c568a10642622fed2b85bc5c22a86c
+      version: e13c15b184f1ed4672087b41edbe0c0792865800
       path: https://github.com/shotgunsoftware/tk-framework-desktopserver.git
       branch: 41325_shared_secret

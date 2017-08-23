@@ -49,9 +49,10 @@ common.engines.tk-flame.location:
 
 # Desktop
 common.engines.tk-desktop.location:
-    type: app_store
-    name: tk-desktop
-    version: v2.3.7
+      type: git_branch
+      path: https://github.com/shotgunsoftware/tk-desktop.git
+      version: ba803f560631edadaea902afe4279cbdec97b110
+      branch: 41325_shared_secret
 
 # Shell
 common.engines.tk-shell.location:
