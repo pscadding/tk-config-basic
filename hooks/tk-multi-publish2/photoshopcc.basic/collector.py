@@ -86,7 +86,8 @@ class PhotoshopCCSceneCollector(HookBaseClass):
             if path:
                 # try to set the thumbnail for display. won't display anything
                 # for psd/psb, but others should work.
-                document_item.set_thumbnail_from_path(path)
+                if not document_item.thumbnail:
+                    document_item.set_thumbnail_from_path(path)
 
 
 
